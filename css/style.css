@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+h1{
+    font-size: 25px;
+    margin-top: 80px;
+  
+}
+p{
+    margin-top: 30px;
+}
+mark{
+    color: black;
+    background-color: #EA738DFF;
+    padding: 7px 30px;            
+    border-radius: 5px;           
+    box-shadow: 1px 1px 10px 1px rgb(51, 39, 39);
+}
+.container{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 18px;
+    margin: -35px auto;
+    width: 350px;
+    height: 370px;
+    padding: 20px;
+    background: #89ABE3FF;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px 0 rgb(219, 191, 191);
+}
+#result{
+    margin-top: 40px;
+    background-color: #EA738DFF;
+    border: 2px dashed black;
+    width: auto;
+    height: 50px;
+    padding-top: 18px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+label{  
+    margin: 20px;
+}
+/* input[type="number"] */
+#weight, #height{
+    margin-top: 10px;
+    width: 300px;
+    height: 25px;
+}
+button, #calcagain {
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #EA738DFF;
+    background: black;            
+    border-radius: 10px;
+    
+}
+#calcagain{            
+    width: 180px;
+}
+button:hover, #calcagain:hover {
+    background: #EA738DFF;
+    color: black;
+}
+button:focus {
+    background: #89ABE3FF;
+    color: black;
+}
+@media (max-width: 500px) {
+    .container {
+        width: 80%;               
+    }
+}
+@media (max-width: 300px) {
+    .container {
+        width: 50%;               
+    }
+    #weight, #height{
+    width: 80%;
+    height: 20px;
+    }
+}
